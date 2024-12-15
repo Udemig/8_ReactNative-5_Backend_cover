@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(105, 67, 140, 0.588);
+}
+
+header {
+  padding: 20px;
+  background-color: aqua;
+}
+
+table {
+  width: 100%;
+}
+
+/* belirli sınıfta ki elemanlar */
+.top-li {
+  color: blue;
+}
+
+/* belirli id deki elemanı çağırmak için >>aynı idye sahip her zaman 1 eelman oalbilir */
+#li-1 {
+  color: chartreuse;
+}
+
+#li-2 {
+  color: chocolate;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 60px;
+}
+
+form input {
+  margin-bottom: 10px;
+}
